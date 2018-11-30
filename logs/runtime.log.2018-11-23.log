@@ -1,0 +1,110 @@
+2018-11-23 10:28:42.029 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.alen.football.FootballApplicationTests], using SpringBootContextLoader
+2018-11-23 10:28:42.036 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.alen.football.FootballApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-11-23 10:28:42.037 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.alen.football.FootballApplicationTests]: FootballApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-11-23 10:28:42.162 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.alen.football.FootballApplication for test class com.alen.football.FootballApplicationTests
+2018-11-23 10:28:42.258 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-23 10:28:42.274 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ba9117e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@732c2a62, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@272ed83b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@41fecb8b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@120f102b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@625732, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51dcb805, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@66498326, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@cad498c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2accdbb5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@b62d79]
+2018-11-23 10:29:02.571 [main] INFO  com.alen.football.FootballApplicationTests - Starting FootballApplicationTests on Apple.local with PID 2395 (started by liulun in /Users/liulun/Project/football)
+2018-11-23 10:29:02.571 [main] INFO  com.alen.football.FootballApplicationTests - The following profiles are active: dev
+2018-11-23 10:29:03.293 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-23 10:29:03.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-23 10:29:03.481 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 177ms. Found 2 repository interfaces.
+2018-11-23 10:29:03.494 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-23 10:29:03.496 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-23 10:29:03.508 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.alen.football.interceptor.log.LogInfoJPA.
+2018-11-23 10:29:03.509 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.alen.football.modules.config.jpa.AppConfigJPA.
+2018-11-23 10:29:03.510 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2018-11-23 10:29:04.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1da6e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-23 10:29:04.245 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$807227a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-23 10:29:04.555 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-23 10:29:04.888 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-23 10:29:04.958 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-23 10:29:04.959 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-23 10:29:05.106 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-23 10:29:05.265 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-23 10:29:05.870 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-23 10:29:07.576 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-23 10:29:08.088 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2018-11-23 10:29:08.167 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-23 10:29:08.192 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-11-23 10:29:08.202 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-23 10:29:08.209 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getConfig was app配置相关
+2018-11-23 10:29:08.213 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getConfig belongs to groups: [[ResourceGroup{groupName='app配置相关', position=0, controller=com.alen.football.modules.config.AppConfigController}]] 
+2018-11-23 10:29:08.214 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.214 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2018-11-23 10:29:08.215 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.215 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2018-11-23 10:29:08.229 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/app配置相关 Description: app配置相关 Position: 0
+2018-11-23 10:29:08.231 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-11-23 10:29:08.251 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.util.List<com.alen.football.modules.config.entity.SysConfigEntity>(true)
+2018-11-23 10:29:08.251 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.util.List<com.alen.football.modules.config.entity.SysConfigEntity>(true)
+2018-11-23 10:29:08.265 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.util.List<com.alen.football.modules.config.entity.SysConfigEntity>(true)
+2018-11-23 10:29:08.265 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.util.List<com.alen.football.modules.config.entity.SysConfigEntity>(true)
+2018-11-23 10:29:08.274 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.alen.football.modules.config.entity.SysConfigEntity(true)
+2018-11-23 10:29:08.274 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.alen.football.modules.config.entity.SysConfigEntity(true)
+2018-11-23 10:29:08.316 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.util.List<com.alen.football.modules.config.entity.SysConfigEntity>(true)
+2018-11-23 10:29:08.317 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.util.List<com.alen.football.modules.config.entity.SysConfigEntity>(true)
+2018-11-23 10:29:08.320 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.alen.football.modules.config.entity.SysConfigEntity(true)
+2018-11-23 10:29:08.320 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.alen.football.modules.config.entity.SysConfigEntity(true)
+2018-11-23 10:29:08.324 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /app/config.com.alen.football.modules.config.AppConfigController.getConfig.DefaultGenericTypeNamingStrategy
+2018-11-23 10:29:08.324 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /app/config.com.alen.football.modules.config.AppConfigController.getConfig.DefaultGenericTypeNamingStrategy
+2018-11-23 10:29:08.338 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getConfig was app配置相关
+2018-11-23 10:29:08.352 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method getConfig was app配置相关
+2018-11-23 10:29:08.368 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-11-23 10:29:08.368 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-11-23 10:29:08.368 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-11-23 10:29:08.369 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-11-23 10:29:08.369 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-11-23 10:29:08.369 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-11-23 10:29:08.372 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.374 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.376 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.377 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.379 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.381 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.383 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.384 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.386 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.387 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.389 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.391 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.393 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.395 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.396 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.397 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method error was basic-error-controller
+2018-11-23 10:29:08.399 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-11-23 10:29:08.399 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-11-23 10:29:08.399 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-11-23 10:29:08.400 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-11-23 10:29:08.411 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-11-23 10:29:08.412 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-11-23 10:29:08.412 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-11-23 10:29:08.412 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-11-23 10:29:08.414 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.View(true)
+2018-11-23 10:29:08.414 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-11-23 10:29:08.417 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.View(true)
+2018-11-23 10:29:08.417 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-11-23 10:29:08.418 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-11-23 10:29:08.418 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-11-23 10:29:08.421 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.425 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.428 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.430 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.431 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.432 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.433 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.434 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.436 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.438 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.441 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.443 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.444 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.445 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.446 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.447 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method errorHtml was basic-error-controller
+2018-11-23 10:29:08.477 [main] INFO  com.alen.football.FootballApplicationTests - Started FootballApplicationTests in 26.163 seconds (JVM running for 27.026)
+2018-11-23 10:29:08.612 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2018-11-23 10:29:08.631 [Thread-2] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-23 10:29:08.641 [Thread-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
